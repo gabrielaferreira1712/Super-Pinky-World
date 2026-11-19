@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Pinky World - Pixel Platformer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="arcade-cabinet">
+  <div class="header-bar">
+    <div class="title-badge">★ SUPER PINKY WORLD ★</div>
+    <button id="soundToggle" class="sound-btn">SOM: ON ♪</button>
+  </div>
+
+  <div class="screen-bezel">
+    <canvas id="gameCanvas" width="800" height="450"></canvas>
+  </div>
+
+  <div class="controls-bar">
+    <div>◀ ▶ / A D : MOVER</div>
+    <div>ESPAÇO / W / ▲ : PULAR</div>
+    <div>R : REINICIAR FASE</div>
+  </div>
+
+  <div class="mobile-controls">
+    <div class="touch-group">
+      <button class="touch-btn" id="btnLeft">◀</button>
+      <button class="touch-btn" id="btnRight">▶</button>
+    </div>
+    <div class="touch-group">
+      <button class="touch-btn" id="btnJump">▲</button>
+    </div>
+  </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
